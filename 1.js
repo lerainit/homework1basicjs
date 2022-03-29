@@ -1,8 +1,8 @@
 "use strict";
 
-let name = 'Lera';
+const name = 'Lera';
 
-let admin = name ;
+const admin = name ;
 
 console.log(admin);
 
@@ -14,7 +14,7 @@ let secondsInOneDay = 86400;
 console.log('Result in seconds:',days*secondsInOneDay);
 
 
-const userAge = +prompt('Please,enter your age here!');
+let userAge = +prompt('Please,enter your age here!');
 
 console.log(userAge);
 
